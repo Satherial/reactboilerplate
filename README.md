@@ -44,3 +44,13 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Add env
+
+Create a .env.local file with this content:
+
+SKIP_PREFLIGHT_CHECK=true
+REACT_APP_AUTH_DOMAIN=http://localhost:3001
+REACT_APP_DOMAIN=https://www.thecocktaildb.com
+REACT_APP_AUTH_API_VERSION=v1
+REACT_APP_USERS_API_VERSION=v1
